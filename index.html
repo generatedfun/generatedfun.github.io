@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Random Website Generator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  
+    <h1>Cure Your Boredom by Going to Random Fun AI Websites/Tools</h1>
+    
+    <button id="btn">Let's Go!</button>
+    
+    <script>
+    let btn = document.getElementById('btn');
+    let websites = [
+        'https://www.wordtune.com',
+        'https://magicstudio.com/magiceraser',
+        'https://boomy.com',
+        'https://fakeyou.com',
+        'https://www.craiyon.com',
+        'https://huemint.com',
+        'https://rytr.me',
+        'https://thing-translator.appspot.com',
+        'https://www.autodraw.com',
+        'https://fontjoy.com',
+        'https://quickdraw.withgoogle.com',
+        'https://books.google.com/talktobooks/',
+        'https://replika.com',
+        'https://thispersondoesnotexist.com',
+        'https://namelix.com',
+        'https://letsenhance.io',
+        'https://research.google.com/semantris/',
+        'https://cyborg.tenso.rs',
+        'https://freddiemeter.withyoutube.com',
+        'https://www.myheritage.nl/deep-nostalgia?irclickid=XFD22fyE0xyNR7RVoXTXjwISUkAzY%3Ayve1gvXQ0&tr_ad_group=27795&irgwc=1&utm_source=partner_impact&utm_medium=partner',
+        'https://deepbeat.org',
+        'https://shadowart.withgoogle.com/?lang=en-us#',
+        'https://artsexperiments.withgoogle.com/poemportraits',
+        'https://thisxdoesnotexist.com',
+        'https://affinelayer.com/pixsrv/',
+        'https://experiments.withgoogle.com/ai/ai-duet/view/',
+        'http://evenstranger.pw',
+        'https://www.synthesia.io',
+        'https://runwayml.com',
+
+    ];
+
+    btn.addEventListener('click', () => {
+        let randomWebsite = websites[Math.floor(Math.random() * websites.length)];
+        window.open(randomWebsite, '_blank');
+    });
+    </script>
+  </body>
+</html>

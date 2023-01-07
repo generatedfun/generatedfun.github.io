@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Lato:wght@300&family=Montserrat&family=Nunito:wght@300&family=Poppins:wght@300&family=Roboto+Mono:wght@500&family=Syne&family=Teko:wght@600&family=Work+Sans:wght@300;500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #121212;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff
+}
+
+h1 {
+    font-size: 5rem;
+    text-transform: none;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 30%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    color: rgb(255, 255, 255, .4);
+    font-size: 3em;
+    letter-spacing: .1em;
+    text-decoration: none;
+    text-transform: none;
+    background: #1f1f1f;
+    padding: 20px 40px;
+    transition: .5s;
+}
+
+button:hover {
+    color: #ff0000;
+    letter-spacing: .25em;
+    cursor: pointer;
+}
+
+button span {
+    position: absolute;
+    display: block;
+    background: #ff0000;
+}
